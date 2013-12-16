@@ -2,9 +2,9 @@ require 'formula'
 
 class KickIt < Formula
   homepage 'https://github.com/kostia/kick-it'
-  version '0.0.5'
+  version '0.0.6'
   url 'https://github.com/kostia/kick-it/archive/master.zip'
-  sha1 'b02e2387a103195b2419fa9df43e6b9a067f8738'
+  sha1 '43a061212bb2ebd4a479899016c1b73d8fd8f571'
 
   def install
     bin.install 'bin/kick-it'
@@ -12,7 +12,6 @@ class KickIt < Formula
 
   def caveats; <<-EOS.undent
     Type "kick-it -h" for a short description.
-    Put configuration in ~/.config/kick-it/config.yml (will be generated on the first run).
     For further documentation refer to https://github.com/kostia/kick-it.
     EOS
   end
