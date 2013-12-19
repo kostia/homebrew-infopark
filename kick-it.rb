@@ -2,9 +2,9 @@ require 'formula'
 
 class KickIt < Formula
   homepage 'https://github.com/kostia/kick-it'
-  version '0.0.8'
+  version '0.0.8.1'
   url 'https://github.com/kostia/kick-it/archive/master.zip'
-  sha1 '456509279542f64d203b27d966562f67c534d144'
+  sha1 '198c701e800dd5cced0740ded7b0b0f9a157fed3'
 
   def install
     bin.install 'bin/kick-it'
