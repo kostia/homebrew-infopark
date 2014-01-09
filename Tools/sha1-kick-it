@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+curl -L https://github.com/kostia/kick-it/archive/master.zip|/usr/bin/openssl sha1
