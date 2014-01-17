@@ -2,7 +2,7 @@ require 'formula'
 
 class KickIt < Formula
   homepage 'https://github.com/infopark/kick-it'
-  version '0.1.0.rc1'
+  version '0.1.0'
   url 'https://github.com/infopark/kick-it/archive/master.zip'
   sha1 '6a46f0625a30067c82db38387788f4a3f2ec407d'
 
