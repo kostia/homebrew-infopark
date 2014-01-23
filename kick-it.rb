@@ -2,9 +2,9 @@ require 'formula'
 
 class KickIt < Formula
   homepage 'https://github.com/infopark/kick-it'
-  version '0.1.1'
+  version '0.1.2'
   url 'https://github.com/infopark/kick-it/archive/master.zip'
-  sha1 'f7283161241cd7a6e89bbc1689acd1bdb6cf9491'
+  sha1 'e82966edb60514cd66ac68c0dafda888ad82116f'
 
   def install
     bin.install 'bin/kick-it'
