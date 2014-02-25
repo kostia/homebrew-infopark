@@ -1,3 +1,8 @@
 #!/usr/bin/env bash
 
-curl -L https://github.com/infopark/kick-it/archive/master.zip|/usr/bin/openssl sha1
+if [[ -n "$1" ]]
+then
+  curl -L "https://github.com/infopark/kick-it/archive/$1.zip"|/usr/bin/openssl sha1
+else
+  echo 'Usage: sha1-kick-it VERSION'
+fi
