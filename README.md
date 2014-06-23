@@ -1,3 +1,5 @@
+# Moved to https://github.com/infopark/homebrew-infopark
+
 Homebrew for Infopark-SDK
 ==============
 Formulae for Infopark-SDK development for the Homebrew package manager http://brew.sh
